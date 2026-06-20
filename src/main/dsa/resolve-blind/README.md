@@ -1,2 +1,4 @@
-- [ ] 226. Invert Binary Tree — done 13/6, revisit 27/6
-- [ ] 94. Binary Tree Inorder Traversal — done 13/6, revisit 27/6
+- 226. Invert Binary Tree — done 13/6, revisit 27/6
+- 94. Binary Tree Inorder Traversal — done 13/6, revisit 27/6
+- 104. Maximum Depth of Binary Tree - done 15/6 revisit 30/6
+- 543. Diameter of Binary Tree done 18/6 revisit 3/7
