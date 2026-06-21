@@ -1,0 +1,33 @@
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode(int x) { val = x; }
+ * }
+ */
+
+class Solution {
+    /*
+    So I was not able to solve this but i knew recursion would be there not sure how?
+    Looked at soln and what I find was i didnt went through question properly
+    Check for constraints it said that p and q will always be there so
+    scenarios are limited and we can go left or right
+    Basically if p and q are small we go left if big then right and every other condn return root
+    because we need to check when p and q split and it only happens when one is small and other is big
+    and we return root at that time
+    */
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null) return null;
+
+
+        if (p.val < root.val && q.val < root.val) {
+            return lowestCommonAncestor(root.left, p, q);
+        } else if(p.val > root.val && q.val > root.val) {
+            return lowestCommonAncestor(root.right, p, q);
+        } else {
+            return root;
+        }
+    }
+}
