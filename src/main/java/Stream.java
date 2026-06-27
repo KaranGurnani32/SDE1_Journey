@@ -13,5 +13,9 @@ public class Stream  {
         employees.add(new Employee("Rohan", 400000, List.of("Project 9", "Project 6")));
     }
 
+    public static void main(String[] args) {
 
+        employees.stream()
+                .forEach(employee -> System.out.println(employee));
+    }
 }
