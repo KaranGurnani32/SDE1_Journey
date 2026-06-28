@@ -2,3 +2,5 @@
 - 94. Binary Tree Inorder Traversal — revisited 27/6 - revisit again  11/7
 - 104. Maximum Depth of Binary Tree - done 15/6 revisit 30/6
 - 543. Diameter of Binary Tree done 18/6 revisit 3/7
+- 110. Balanced Binary Tree done 20/6 revisit 5/7
+- 235. Lowest Common Ancestor of a Binary Search Tree done 21/6 revisit 6/7
